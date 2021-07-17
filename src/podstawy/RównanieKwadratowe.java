@@ -1,6 +1,8 @@
+package podstawy;
+
 import java.util.Scanner;
 
-public class Kwadraowe {
+public class RównanieKwadratowe {
     public static void main(String[] args) {
         Scanner skan = new Scanner(System.in);
         System.out.println("Podaj a");

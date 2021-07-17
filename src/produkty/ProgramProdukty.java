@@ -1,3 +1,5 @@
+package produkty;
+
 import java.util.ArrayList;
 
 public class ProgramProdukty {

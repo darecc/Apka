@@ -1,4 +1,6 @@
-public class Program2 {
+package podstawy;
+
+public class ProgramProceduralny {
     public static void main(String[] args) {
         Wczytaj();
         Oblicz();

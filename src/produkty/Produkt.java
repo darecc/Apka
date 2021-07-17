@@ -1,3 +1,5 @@
+package produkty;
+
 public class Produkt {
     String nazwa;
     double cena;
