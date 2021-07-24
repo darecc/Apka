@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0be8a691-0f8c-4a82-a85e-82b3fc67bec9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ship/Cargo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ship/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ship/Ship.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/produkty/ProgramProdukty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/produkty/ProgramProdukty.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,21 +15,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/podstawy/RównanieKwadratowe.java">
+        <entry file="file://$PROJECT_DIR$/src/produkty/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-110">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="616">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ship/Ship.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+              <folding>
+                <element signature="e#267#268#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/produkty/ProgramProdukty.java">
+        <entry file="file://$PROJECT_DIR$/src/ship/Program.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+            <state relative-caret-position="308">
+              <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ship/Cargo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+              <folding>
+                <element signature="e#90#91#0" expanded="true" />
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,6 +89,9 @@
         <option value="$PROJECT_DIR$/src/podstawy/Suma.java" />
         <option value="$PROJECT_DIR$/src/produkty/Produkt.java" />
         <option value="$PROJECT_DIR$/src/produkty/ProgramProdukty.java" />
+        <option value="$PROJECT_DIR$/src/ship/Cargo.java" />
+        <option value="$PROJECT_DIR$/src/ship/Ship.java" />
+        <option value="$PROJECT_DIR$/src/ship/Program.java" />
       </list>
     </option>
   </component>
@@ -69,15 +101,17 @@
     <option name="width" value="1826" />
     <option name="height" value="1037" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Course" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,6 +136,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="produkty" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Apka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Apka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ship" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -109,7 +149,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1626551438449" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1627135878282" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -128,7 +168,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProgramProdukty">
+  <component name="RunManager" selected="Application.Program (1)">
+    <configuration name="Program (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ship.Program" />
+      <module name="Apka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ship.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Program" />
       <module name="Apka" />
@@ -159,6 +212,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program (1)" />
         <item itemvalue="Application.ProgramProdukty" />
         <item itemvalue="Application.Suma" />
         <item itemvalue="Application.RównanieKwadratowe" />
@@ -180,21 +234,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="76" y="50" width="1370" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24961832" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1901566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39955357" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23703703" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39876544" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -202,6 +255,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32924107" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -214,39 +268,12 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Suma.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Program.java" />
+    <entry file="file://$PROJECT_DIR$/src/Suma.java" />
     <entry file="file://$PROJECT_DIR$/src/produkty/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding>
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="616">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
@@ -278,6 +305,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ship/Cargo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ship/Ship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="e#267#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ship/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
         </state>
       </provider>
     </entry>
